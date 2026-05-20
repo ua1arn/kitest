@@ -5866,6 +5866,16 @@
 		)
 		(uuid "3b80d422-7650-498d-bf7e-fda50bbbf96b")
 	)
+	(label "CODEC.WS"
+		(at 190.5 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40c1f039-7a5a-4743-9579-26689df8f825")
+	)
 	(label "SPI0.MOSI"
 		(at 195.58 119.38 0)
 		(effects
@@ -5906,6 +5916,16 @@
 		)
 		(uuid "647267e8-01e1-4eb8-beed-327f2fd08a9d")
 	)
+	(label "CODEC.BCLK"
+		(at 190.5 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ed00c92-9b95-4092-8004-778880aff7f5")
+	)
 	(label "XTAL_OUT"
 		(at 204.47 132.08 0)
 		(effects
@@ -5925,6 +5945,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ebff077-1256-4e1f-a75f-bab04cd38053")
+	)
+	(label "CODEC.MCLK"
+		(at 190.5 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "935848cd-4eea-4441-9944-d6a8baf6e74a")
 	)
 	(label "SPI0.SCLK"
 		(at 30.48 44.45 0)
@@ -5996,6 +6026,16 @@
 		)
 		(uuid "db2ce8bf-3faf-4531-ac54-4c5ecf64a37d")
 	)
+	(label "CODEC.DIN"
+		(at 190.5 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e006e7db-fd81-4f08-a31b-598be6cd1231")
+	)
 	(label "SPI0.HOLD"
 		(at 195.58 111.76 0)
 		(effects
@@ -6035,6 +6075,16 @@
 			(justify right bottom)
 		)
 		(uuid "fc53e3ba-3389-41b8-b19d-8a5ca807f4db")
+	)
+	(label "CODEC.DOUT"
+		(at 190.5 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd639b2f-3f1b-4091-a55d-0abc79d4e1b0")
 	)
 	(global_label "RFGND"
 		(shape input)

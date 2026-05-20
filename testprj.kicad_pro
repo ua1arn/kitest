@@ -646,6 +646,16 @@
         "filename": "testprj.kicad_sch",
         "name": "testprj",
         "uuid": "423c1216-1c87-4878-aa19-5de0f026118b"
+      },
+      {
+        "filename": "audio.kicad_sch",
+        "name": "audio",
+        "uuid": "ddd61d5c-92f4-4e47-b514-f1213dbaa549"
+      },
+      {
+        "filename": "control.kicad_sch",
+        "name": "control",
+        "uuid": "c2395742-8142-48c9-bf6c-c646e84f944e"
       }
     ],
     "used_designators": "C16-24,L5,J4,DD4,R7-9,U2,U5,Y2",
@@ -655,6 +665,14 @@
     [
       "423c1216-1c87-4878-aa19-5de0f026118b",
       "testprj"
+    ],
+    [
+      "ddd61d5c-92f4-4e47-b514-f1213dbaa549",
+      "audio"
+    ],
+    [
+      "c2395742-8142-48c9-bf6c-c646e84f944e",
+      "control"
     ]
   ],
   "text_variables": {},
