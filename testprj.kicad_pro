@@ -648,7 +648,7 @@
         "uuid": "423c1216-1c87-4878-aa19-5de0f026118b"
       }
     ],
-    "used_designators": "C3-4,C10-11,C14-33,L5,J4,J7-10,DD1,DD4,R7-13,U1-10,Y2",
+    "used_designators": "C3-4,C10-11,C14-33,L5,J4,J7-10,DD1,DD4,R7-13,U1-11,Y2",
     "variants": []
   },
   "sheets": [
@@ -659,6 +659,10 @@
     [
       "c44654fb-17f8-4003-a774-5828afe8054f",
       "video"
+    ],
+    [
+      "ea99654f-353c-4d51-908f-8daad505ae1a",
+      "keyboard"
     ],
     [
       "03a13cea-7382-4825-ae09-ecb92f4fb7f5",

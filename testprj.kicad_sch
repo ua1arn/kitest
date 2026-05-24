@@ -98,7 +98,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 165.1)
+		(at 228.6 45.72)
 		(size 107.95 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "9fa33182-a19a-4d08-9a83-bf7a1476c65b")
 		(property "Sheetname" "control"
-			(at 62.23 164.3884 0)
+			(at 228.6 45.0084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "control2.kicad_sch"
-			(at 62.23 206.3246 0)
+			(at 228.6 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,7 +144,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 233.68)
+		(at 229.87 114.3)
 		(size 113.03 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +160,7 @@
 		)
 		(uuid "c44654fb-17f8-4003-a774-5828afe8054f")
 		(property "Sheetname" "video"
-			(at 63.5 232.9684 0)
+			(at 229.87 113.5884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "video.kicad_sch"
-			(at 63.5 272.3646 0)
+			(at 229.87 152.9846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -185,6 +185,52 @@
 			(project "testprj"
 				(path "/423c1216-1c87-4878-aa19-5de0f026118b"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 163.83)
+		(size 101.6 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ea99654f-353c-4d51-908f-8daad505ae1a")
+		(property "Sheetname" "keyboard"
+			(at 62.23 163.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keyboard.kicad_sch"
+			(at 62.23 202.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "testprj"
+				(path "/423c1216-1c87-4878-aa19-5de0f026118b"
+					(page "3")
 				)
 			)
 		)
