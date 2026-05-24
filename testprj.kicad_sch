@@ -67,7 +67,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "7d000037-c70c-4768-ba53-1b13c87ff30e")
-		(property "Sheetname" "audio2"
+		(property "Sheetname" "audio"
 			(at 58.42 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -113,7 +113,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "9fa33182-a19a-4d08-9a83-bf7a1476c65b")
-		(property "Sheetname" "control2"
+		(property "Sheetname" "control"
 			(at 62.23 164.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -139,6 +139,52 @@
 			(project "testprj"
 				(path "/423c1216-1c87-4878-aa19-5de0f026118b"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 233.68)
+		(size 113.03 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c44654fb-17f8-4003-a774-5828afe8054f")
+		(property "Sheetname" "video"
+			(at 63.5 232.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "video.kicad_sch"
+			(at 63.5 272.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "testprj"
+				(path "/423c1216-1c87-4878-aa19-5de0f026118b"
+					(page "2")
 				)
 			)
 		)

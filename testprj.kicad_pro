@@ -657,16 +657,20 @@
       "testprj"
     ],
     [
+      "c44654fb-17f8-4003-a774-5828afe8054f",
+      "video"
+    ],
+    [
       "03a13cea-7382-4825-ae09-ecb92f4fb7f5",
       "cpu"
     ],
     [
       "7d000037-c70c-4768-ba53-1b13c87ff30e",
-      "audio2"
+      "audio"
     ],
     [
       "9fa33182-a19a-4d08-9a83-bf7a1476c65b",
-      "control2"
+      "control"
     ]
   ],
   "text_variables": {},
