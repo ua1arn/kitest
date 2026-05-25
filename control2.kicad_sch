@@ -5,6 +5,456 @@
 	(uuid "270f9fcd-9f14-4077-9c53-197e80e5d9ba")
 	(paper "A3")
 	(lib_symbols
+		(symbol "74xGxx:74LVC1G32"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -5.08 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G32"
+				(at 7.62 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single OR Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Gate OR LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT* SG-*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74LVC1G32_0_1"
+				(arc
+					(start -7.62 5.08)
+					(mid -5.838 0)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.202 -3.202)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 3.2271 3.2271)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G32_1_1"
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74xGxx:SN74LVC1G125DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC1G125DBV"
+				(at 2.54 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN74LVC1G125DBV_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SN74LVC1G125DBV_1_1"
+				(pin input inverted
+					(at 0 10.16 270)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "74xx:74HC595"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1440,22 +1890,28 @@
 		(uuid "27e89167-7cfd-4ed0-b2ba-9ca56dd495f8")
 	)
 	(junction
+		(at 67.31 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31d701d6-84f3-4b57-bbcc-93c8c37b52c0")
+	)
+	(junction
 		(at 280.67 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a38bc4a-8ed4-4af4-9f75-507473b6b009")
 	)
 	(junction
+		(at 67.31 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dd76d38-20f1-4bda-97c4-cb30530d13c3")
+	)
+	(junction
 		(at 128.27 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54adabfb-1d30-4571-a010-b0a5b4afe39c")
-	)
-	(junction
-		(at 93.98 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "630815f3-a044-40ea-bd7c-daa4ce12103a")
 	)
 	(junction
 		(at 120.65 64.77)
@@ -1470,22 +1926,22 @@
 		(uuid "7dc58b72-7f24-48e6-9cbc-553994df5a0e")
 	)
 	(junction
-		(at 87.63 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f90b0e9-03ea-47c1-87b3-d525b8a28efc")
-	)
-	(junction
 		(at 280.67 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85dfd643-3c07-4730-9edd-68758d3f5bcf")
 	)
 	(junction
-		(at 93.98 67.31)
+		(at 62.23 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90909e29-0fcc-4909-8bf8-81fc06c1f591")
+		(uuid "85fe1665-a2a7-4a20-bf2e-7895a1de635d")
+	)
+	(junction
+		(at 120.65 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b59dd27-b1d9-40d0-b90b-465ebebc5fe1")
 	)
 	(junction
 		(at 138.43 106.68)
@@ -1506,10 +1962,10 @@
 		(uuid "94ff8fd7-8e77-49c2-8750-145a50109c58")
 	)
 	(junction
-		(at 120.65 106.68)
+		(at 67.31 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9a40c2e7-3123-4462-bb09-d7fad63e41fa")
+		(uuid "956980c9-90bb-43c4-8598-13a7d9c7ef12")
 	)
 	(junction
 		(at 278.13 144.78)
@@ -1518,22 +1974,16 @@
 		(uuid "9b959f48-5d5d-4ff0-992a-9efe358f1944")
 	)
 	(junction
-		(at 120.65 72.39)
+		(at 62.23 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b21c53d1-acac-4387-be93-e42b90736603")
+		(uuid "a9c34f75-2d4d-40d9-8a85-ff7a56465699")
 	)
 	(junction
-		(at 93.98 64.77)
+		(at 67.31 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4eacb70-408d-4177-bad4-fe97f97af046")
-	)
-	(junction
-		(at 93.98 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9e3fb01-9cf5-4306-aa79-1b635ccb4a4c")
+		(uuid "aa3f4755-852a-4fa8-aae6-281584e04caf")
 	)
 	(junction
 		(at 120.65 99.06)
@@ -1542,10 +1992,10 @@
 		(uuid "d3d06ca3-f856-4263-acb7-4351763cb561")
 	)
 	(junction
-		(at 87.63 104.14)
+		(at 120.65 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d9f24527-32cf-4603-8906-97f8a743292f")
+		(uuid "e50a0e3f-7766-43dc-9fab-2469a83aceb7")
 	)
 	(junction
 		(at 138.43 72.39)
@@ -1591,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 64.77) (xy 87.63 64.77)
+			(xy 67.31 64.77) (xy 62.23 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +2101,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 72.39) (xy 120.65 72.39)
+			(xy 62.23 72.39) (xy 120.65 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1681,7 +2131,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 62.23) (xy 93.98 64.77)
+			(xy 67.31 62.23) (xy 67.31 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1691,7 +2141,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 97.79 101.6)
+			(xy 67.31 101.6) (xy 97.79 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1701,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 104.14) (xy 86.36 104.14)
+			(xy 62.23 104.14) (xy 60.96 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1711,7 +2161,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 109.22 99.06)
+			(xy 67.31 99.06) (xy 109.22 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1721,7 +2171,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 106.68) (xy 120.65 106.68)
+			(xy 62.23 106.68) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1781,13 +2231,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 67.31) (xy 93.98 69.85)
+			(xy 67.31 67.31) (xy 67.31 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "41a7f5b3-54d8-4c0b-aa50-48249e41874e")
+	)
+	(wire
+		(pts
+			(xy 201.93 50.8) (xy 201.93 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4332df4f-3b23-4d34-82d2-a6d41e3b7881")
 	)
 	(wire
 		(pts
@@ -1801,7 +2261,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 96.52) (xy 93.98 99.06)
+			(xy 67.31 96.52) (xy 67.31 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1811,7 +2271,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 67.31) (xy 97.79 67.31)
+			(xy 67.31 67.31) (xy 97.79 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1851,7 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 69.85) (xy 86.36 69.85)
+			(xy 62.23 69.85) (xy 60.96 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1901,6 +2361,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 171.45) (xy 120.65 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743973ab-644d-496d-9b98-3c7dcf3021cf")
+	)
+	(wire
+		(pts
 			(xy 107.95 101.6) (xy 133.35 101.6)
 		)
 		(stroke
@@ -1941,7 +2411,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 62.23) (xy 93.98 62.23)
+			(xy 62.23 62.23) (xy 67.31 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1991,7 +2461,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 93.98 104.14)
+			(xy 67.31 101.6) (xy 67.31 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2001,7 +2471,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 101.6) (xy 93.98 101.6)
+			(xy 62.23 101.6) (xy 67.31 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2051,7 +2521,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 69.85) (xy 87.63 69.85)
+			(xy 67.31 69.85) (xy 62.23 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2061,7 +2531,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 64.77) (xy 109.22 64.77)
+			(xy 67.31 64.77) (xy 109.22 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2151,6 +2621,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 77.47) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07f5118-ac73-4c62-9c90-0a3d50241ee4")
+	)
+	(wire
+		(pts
 			(xy 290.83 48.26) (xy 283.21 48.26)
 		)
 		(stroke
@@ -2161,7 +2641,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 67.31) (xy 93.98 67.31)
+			(xy 62.23 67.31) (xy 67.31 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2201,7 +2681,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 87.63 99.06)
+			(xy 67.31 99.06) (xy 62.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2291,7 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 104.14) (xy 87.63 104.14)
+			(xy 67.31 104.14) (xy 62.23 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2301,13 +2781,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 96.52) (xy 93.98 96.52)
+			(xy 62.23 96.52) (xy 67.31 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "feaeba6d-5e62-4726-aca5-3edbf15e9346")
+	)
+	(label "RFGND"
+		(at 201.93 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32e0486c-9499-4d84-9918-ed986e994674")
 	)
 	(label "RFGND"
 		(at 161.29 72.39 0)
@@ -2318,6 +2808,16 @@
 			(justify left bottom)
 		)
 		(uuid "47245488-6a65-42da-95e2-b47b3cb73551")
+	)
+	(label "RFGND"
+		(at 120.65 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d4f8dd0-88bc-416e-9731-7cb3151a4bbf")
 	)
 	(label "RFGND"
 		(at 78.74 179.07 0)
@@ -2348,6 +2848,16 @@
 			(justify left bottom)
 		)
 		(uuid "7959d434-c481-4ae2-956f-9a43ba63c910")
+	)
+	(label "RFGND"
+		(at 196.85 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e140fd98-adff-4758-9149-859bb7d753d1")
 	)
 	(label "RFGND"
 		(at 300.99 161.29 0)
@@ -2682,6 +3192,95 @@
 			(project "testprj"
 				(path "/423c1216-1c87-4878-aa19-5de0f026118b/9fa33182-a19a-4d08-9a83-bf7a1476c65b"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:SN74LVC1G125DBV")
+		(at 201.93 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fce9363-31fa-4e2e-91f8-3df3943a5ced")
+		(property "Reference" "U12"
+			(at 217.17 58.3498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G125DBV"
+			(at 217.17 60.8898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 201.93 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 201.93 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-23-5"
+			(at 201.93 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c4320285-2956-4cf8-80fd-b3625d6a786b")
+		)
+		(pin "5"
+			(uuid "dbb2b14c-6476-4d0e-b1ad-8f2cc36f1792")
+		)
+		(pin "3"
+			(uuid "cc294c54-32ce-4e97-a2b5-fcb62dd5af31")
+		)
+		(pin "1"
+			(uuid "a193796f-3489-4a50-9f31-661e575a8fda")
+		)
+		(pin "4"
+			(uuid "5cbf4154-f179-4af4-a693-edb7e77e8efb")
+		)
+		(instances
+			(project "testprj"
+				(path "/423c1216-1c87-4878-aa19-5de0f026118b/9fa33182-a19a-4d08-9a83-bf7a1476c65b"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3495,7 +4094,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 82.55 69.85 0)
+		(at 57.15 69.85 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3507,7 +4106,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad2d8ff1-f73c-4099-b6c0-291b8d5c64dd")
 		(property "Reference" "J8"
-			(at 74.93 65.4049 0)
+			(at 49.53 65.4049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3518,7 +4117,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 74.93 67.9449 0)
+			(at 49.53 67.9449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3529,7 +4128,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ2-3593D-SMT_Horizontal"
-			(at 82.55 69.85 0)
+			(at 57.15 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3540,7 +4139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 69.85 0)
+			(at 57.15 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3551,7 +4150,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 82.55 69.85 0)
+			(at 57.15 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3747,7 +4346,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 82.55 104.14 0)
+		(at 57.15 104.14 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3759,7 +4358,7 @@
 		(fields_autoplaced yes)
 		(uuid "b760ef3f-e21e-4f47-8f0b-3ad82a628468")
 		(property "Reference" "J9"
-			(at 74.93 99.6949 0)
+			(at 49.53 99.6949 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3770,7 +4369,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 74.93 102.2349 0)
+			(at 49.53 102.2349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3781,7 +4380,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ2-3593D-SMT_Horizontal"
-			(at 82.55 104.14 0)
+			(at 57.15 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3792,7 +4391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 104.14 0)
+			(at 57.15 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3803,7 +4402,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 82.55 104.14 0)
+			(at 57.15 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3912,6 +4511,95 @@
 			(project "testprj"
 				(path "/423c1216-1c87-4878-aa19-5de0f026118b/9fa33182-a19a-4d08-9a83-bf7a1476c65b"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G32")
+		(at 120.65 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6c05e2c-57ed-4904-94d0-9c38a51fd7f5")
+		(property "Reference" "U13"
+			(at 132.08 149.7898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G32"
+			(at 132.08 152.3298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 120.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 120.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single OR Gate, Low-Voltage CMOS"
+			(at 120.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "0537c9e0-bb27-44e6-be2f-4f561e9fe848")
+		)
+		(pin "5"
+			(uuid "7cd37e12-2081-48cb-a3e5-629360ce8106")
+		)
+		(pin "3"
+			(uuid "fb833737-ee74-428e-959e-7ec00dac8027")
+		)
+		(pin "2"
+			(uuid "919195bb-3200-4e99-baec-f727a216d687")
+		)
+		(pin "1"
+			(uuid "bb408a35-7d2f-4c55-b207-c62edc382dd4")
+		)
+		(instances
+			(project "testprj"
+				(path "/423c1216-1c87-4878-aa19-5de0f026118b/9fa33182-a19a-4d08-9a83-bf7a1476c65b"
+					(reference "U13")
 					(unit 1)
 				)
 			)
