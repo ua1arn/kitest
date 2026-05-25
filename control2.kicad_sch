@@ -2371,6 +2371,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 86.36) (xy 138.43 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3d4f0b-ca9e-435f-aec0-064564d6a7af")
+	)
+	(wire
+		(pts
 			(xy 107.95 101.6) (xy 133.35 101.6)
 		)
 		(stroke
@@ -2631,6 +2641,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 140.97) (xy 120.65 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39a0f96-632b-4d12-a391-6de937e8ae63")
+	)
+	(wire
+		(pts
 			(xy 290.83 48.26) (xy 283.21 48.26)
 		)
 		(stroke
@@ -2638,6 +2658,26 @@
 			(type default)
 		)
 		(uuid "cb026462-9eea-41d8-a189-20c5ef161064")
+	)
+	(wire
+		(pts
+			(xy 196.85 44.45) (xy 196.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd92e620-8ebc-4d97-9a25-e00d4ed9a904")
+	)
+	(wire
+		(pts
+			(xy 138.43 52.07) (xy 138.43 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecb4904-70ec-432f-ae71-00e188b48876")
 	)
 	(wire
 		(pts
@@ -2799,6 +2839,16 @@
 		)
 		(uuid "32e0486c-9499-4d84-9918-ed986e994674")
 	)
+	(label "DVDD_5P0"
+		(at 138.43 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "453daec4-023e-466a-9988-62cc713014a6")
+	)
 	(label "RFGND"
 		(at 161.29 72.39 0)
 		(effects
@@ -2839,6 +2889,16 @@
 		)
 		(uuid "7024f79a-5ad0-4078-8f41-ab3870cd545e")
 	)
+	(label "DVDD_3P3"
+		(at 196.85 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "793e792c-41de-4f2b-9ed0-d9c25ed6439d")
+	)
 	(label "RFGND"
 		(at 161.29 106.68 0)
 		(effects
@@ -2848,6 +2908,26 @@
 			(justify left bottom)
 		)
 		(uuid "7959d434-c481-4ae2-956f-9a43ba63c910")
+	)
+	(label "DVDD_3P3"
+		(at 120.65 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "800c43de-2b40-49a4-9cc9-473e26917b7b")
+	)
+	(label "DVDD_5P0"
+		(at 138.43 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c0eaad7-2b6e-4202-9d61-2d7e61942694")
 	)
 	(label "RFGND"
 		(at 196.85 77.47 0)

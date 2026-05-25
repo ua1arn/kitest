@@ -2676,7 +2676,7 @@
 		)
 	)
 	(hierarchical_label "CODEC{WS BCLK DOUT DIN MCLK}"
-		(shape bidirectional)
+		(shape input)
 		(at 69.85 158.75 180)
 		(effects
 			(font

@@ -6406,30 +6406,6 @@
 		)
 		(uuid "fadb7ecc-769e-4537-ad89-5c7d8543a43f")
 	)
-	(global_label "LCD{R[2..7] G[1..7] B[2..7] CLK DE VSYNC HSYNC PWM}"
-		(shape input)
-		(at 349.25 222.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "07439504-837d-432f-bbcb-83b0902e61a5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 406.4221 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "RFGND"
 		(shape input)
 		(at 66.04 269.24 180)
@@ -6453,6 +6429,17 @@
 				(justify right)
 			)
 		)
+	)
+	(hierarchical_label "LCD{R[2..7] G[1..7] B[2..7] CLK DE VSYNC HSYNC PWM}"
+		(shape bidirectional)
+		(at 349.25 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62865786-886a-4bfa-ace9-0b67be464f11")
 	)
 	(symbol
 		(lib_id "Device:C")

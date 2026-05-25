@@ -1757,7 +1757,7 @@
 	)
 	(bus
 		(pts
-			(xy 76.2 139.7) (xy 96.52 139.7)
+			(xy 88.9 139.7) (xy 96.52 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2395,30 +2395,6 @@
 		)
 		(uuid "ffae971a-68a4-45a3-a965-977781c5e754")
 	)
-	(global_label "LCD{R[2..7] G[1..7] B[2..7] CLK DE VSYNC HSYNC PWM}"
-		(shape input)
-		(at 76.2 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a93353d-9e43-4c87-8285-2091e7408572")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0279 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "RFGND"
 		(shape input)
 		(at 87.63 219.71 180)
@@ -2490,6 +2466,17 @@
 				(justify right)
 			)
 		)
+	)
+	(hierarchical_label "LCD{R[2..7] G[1..7] B[2..7] CLK DE VSYNC HSYNC PWM}"
+		(shape bidirectional)
+		(at 88.9 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b94030b-7d27-466c-8df3-89d9834f3255")
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x40_MountingPin")
