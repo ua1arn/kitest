@@ -6491,6 +6491,54 @@
 		)
 		(uuid "fadb7ecc-769e-4537-ad89-5c7d8543a43f")
 	)
+	(global_label "DVDD1_3P3"
+		(shape input)
+		(at 33.02 264.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "161785cc-84a5-4afe-bb1a-80628868f8d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.2701 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DVDD1_5P0"
+		(shape input)
+		(at 33.02 255.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9523955d-634e-4a73-a82f-2348eed4f89e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.2701 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RFGND"
 		(shape input)
 		(at 33.02 271.78 180)
@@ -6504,54 +6552,6 @@
 		(uuid "9d5738c6-1f93-48ae-86d9-5da2ae01d5bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 23.8057 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VCC_3P3"
-		(shape input)
-		(at 33.02 264.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bad25dd5-b4b6-4539-9735-6c85038e7971")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.7496 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VCC_5P0"
-		(shape input)
-		(at 33.02 255.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fff3827b-f29b-4f72-a435-3a64341bf5e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.7496 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
