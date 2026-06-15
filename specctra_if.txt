@@ -1,0 +1,1 @@
+D:\Specctra\tools\bin\SPECCTRA.EXE D:\user\dds2\production-falcon710_v2\rfboard_v4 -design rfboard.DSN -do D:\user\dds2\production-falcon710_v2\rfboard_v4\rfboard.DO  -o D:\Specctra\tools\bin\sp.log -noclean -nog -ii -quit

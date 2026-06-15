@@ -1,0 +1,1 @@
+del *.bak *.log *.sts *.err *.w *.m *.did OnlineDRC.ERR.* *.fsr *.fsx ForceUpdate.txt
